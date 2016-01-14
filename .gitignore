@@ -1,0 +1,5 @@
+exactdrive-db-*.sql
+exactdrive-db-*.sql.gz
+
+composer.phar
+/vendor/
