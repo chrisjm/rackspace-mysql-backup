@@ -14,7 +14,7 @@ use OpenCloud\Rackspace;
 
 echo date('[r] ')."INFO: Backup initiated.\n";
 echo date('[r] ')."INFO: Backing up $db on $dbserver...\n";
-exec("/Applications/MAMP/Library/bin/mysqldump --opt --user=$user --password=$password --host=$dbserver $db > $file");
+exec("mysqldump --opt --user=$user --password=$password --host=$dbserver $db > $file");
 
 // Create gzip and force overwrite
 echo date('[r] ')."INFO: $file created. Compressing...\n";
