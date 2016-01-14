@@ -1,5 +1,10 @@
+# Ignore Settings file
+settings.php
+
+# Ignore created files
 exactdrive-db-*.sql
 exactdrive-db-*.sql.gz
 
+# Ignore Composer and libraries
 composer.phar
 /vendor/
