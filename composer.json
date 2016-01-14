@@ -1,0 +1,7 @@
+{
+
+    "require": {
+        "rackspace/php-opencloud": "1.*"
+    }
+
+}
